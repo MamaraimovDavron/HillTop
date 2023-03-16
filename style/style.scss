@@ -1,0 +1,10 @@
+@import "./inside-style/header";
+@import "./inside-style/main";
+@import "./inside-style/middle";
+@import "./inside-style/footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
