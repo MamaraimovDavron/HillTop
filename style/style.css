@@ -1,8 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
 .container-one {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 35px;
+  padding: 30px;
   height: 100vh;
   background-image: url("../../assets/sophie-turner-LZVmvKlchM0-unsplash.jpg");
   background-repeat: no-repeat;
@@ -66,7 +70,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 80px;
+  padding: 50px;
 }
 .title-box h1 {
   font-family: "Century Gothic";
@@ -180,13 +184,14 @@
   background: #E5E5E5;
   width: 100%;
   overflow-x: hidden;
-  height: 8vh;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 200px;
   opacity: 0.7;
+  margin-top: 150px;
   position: absolute;
   bottom: 0;
 }
@@ -229,10 +234,179 @@
   border: 1px solid #E0E6E8;
 }
 .container-two .container-box {
+  border: 1px solid;
+  width: 100%;
+  padding: 50px 30px;
   display: flex;
   flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.container-two .container-box .main-box {
+  display: flex;
+  flex-direction: column;
   width: 519px;
   height: 579px;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #D3C9C9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container-two .container-box .main-box .img-box {
+  width: 100%;
+  height: 100%;
+}
+.container-two .container-box .main-box .img-box span img {
+  position: absolute;
+  padding: 10px;
+  background-color: #FFAC0B;
+}
+.container-two .container-box .main-box .img-box .image {
+  width: 100%;
+}
+.container-two .container-box .main-box .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #D3C9C9;
+  height: 579px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container-two .container-box .main-box .text-box h3 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.container-two .container-box .main-box .text-box p {
+  font-family: "Century Gothic";
+  text-align: justify;
+  font-style: normal;
+  width: 430px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.container-three {
+  margin-top: 50px;
+  height: 100vh;
+  background-image: url("../../assets/photo-1464822759023-fed622ff2c3b.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container-three .img-box {
+  width: 792px;
+  height: 528px;
+  margin-top: 100px;
+}
+.container-three .text-box {
+  margin-top: 100px;
+  width: 792px;
+  height: 527px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+}
+.container-three .text-box h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFE600;
+}
+.container-three .text-box p {
+  margin-top: 20px;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.container-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-four h1 {
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 80px;
+  color: #000000;
+  padding: 10px;
+  border-bottom: 3px solid #ECA00D;
+}
+.container-four hr {
+  width: 800px;
+  border: 1px solid #E0E6E8;
+}
+.container-four .container-box {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #D3C9C9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container-four .container-box .main-box {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+}
+.container-four .container-box .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+.container-four .container-box .text-box h3 {
+  margin-top: 30px;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.container-four .container-box .text-box p {
+  border: 1px solid;
+  text-align: justify;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
 }
 
 * {
