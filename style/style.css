@@ -234,7 +234,6 @@ body {
   border: 1px solid #E0E6E8;
 }
 .container-two .container-box {
-  border: 1px solid;
   width: 100%;
   padding: 50px 30px;
   display: flex;
@@ -252,7 +251,6 @@ body {
   justify-content: center;
   background: #FFFFFF;
   border: 1px solid #D3C9C9;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .container-two .container-box .main-box .img-box {
   width: 100%;
@@ -273,9 +271,7 @@ body {
   justify-content: space-evenly;
   box-sizing: border-box;
   background: #FFFFFF;
-  border: 1px solid #D3C9C9;
   height: 579px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .container-two .container-box .main-box .text-box h3 {
   font-family: "Century Gothic";
@@ -371,22 +367,27 @@ body {
   gap: 100px;
   align-items: center;
   justify-content: center;
-  background: #FFFFFF;
-  border: 1px solid #D3C9C9;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 50px;
 }
 .container-four .container-box .main-box {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 5px;
   width: 520px;
+  height: 55vh;
+  box-shadow: 0px 0px 10px gray;
+}
+.container-four .container-box .main-box .img-box span {
+  position: absolute;
 }
 .container-four .container-box .text-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 20px;
-  padding: 10px;
 }
 .container-four .container-box .text-box h3 {
   margin-top: 30px;
@@ -399,7 +400,6 @@ body {
   color: #000000;
 }
 .container-four .container-box .text-box p {
-  border: 1px solid;
   text-align: justify;
   font-family: "Century Gothic";
   font-style: normal;
